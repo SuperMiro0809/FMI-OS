@@ -1,0 +1,1 @@
+find /usr -type f -name '*.sh' | xargs grep -h '^#!' | sort | uniq -c | sort -rn | head -1

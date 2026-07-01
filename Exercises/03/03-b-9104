@@ -1,0 +1,1 @@
+ls ~/songs | sed 's/.* (//' | sed 's/).ogg//' | sort -t',' -k2 -n

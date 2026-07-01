@@ -1,0 +1,5 @@
+ wc ~/dir5/*
+
+ wc ~/dir5/* -lm
+
+wc ~/dir5/* -l | tail -1

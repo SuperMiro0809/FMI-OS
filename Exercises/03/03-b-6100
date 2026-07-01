@@ -1,0 +1,1 @@
+head -46 /etc/passwd | tail -n +28 | awk -F : '{print substr($3, length($3))}'

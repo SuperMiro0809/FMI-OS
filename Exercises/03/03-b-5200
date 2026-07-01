@@ -1,0 +1,1 @@
+tr -d 'a' < /etc/passwd | wc -c

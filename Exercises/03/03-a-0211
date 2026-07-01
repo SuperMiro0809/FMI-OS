@@ -1,0 +1,1 @@
+head -c 6 /etc/passwd | tail -c 5

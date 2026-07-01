@@ -1,0 +1,1 @@
+awk -F: -v group=$(id -gn) '{print "Hello, " $1 ($1 == group ? " - I am here!" : "")}' /etc/group

@@ -1,0 +1,10 @@
+/etc/cron.monthly
+/etc/sudoers.d
+/etc/pm
+/etc/cron.yearly
+/etc/insserv.conf.d
+/etc/cron.weekly
+/etc/bash_completion.d
+/etc/rc4.d
+/etc/cron.d
+/etc/default

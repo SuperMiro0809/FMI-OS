@@ -1,0 +1,35 @@
+awk 'END{print NR}' ~/emp.data
+
+awk 'NR == 3' ~/emp.data
+
+awk '{print $NF}' ~/emp.data 
+
+awk 'END{print $NF}' ~/emp.data 
+
+awk 'NF > 4' ~/emp.data
+
+awk '$NF > 4' ~/emp.data
+
+awk '{sum += NF} END{print sum}' ~/emp.data
+
+awk '/Beth/{count++} END{print count}' ~/emp.data
+
+awk '$3 > max {max = $3; row = $0} END{print max, row}' ~/emp.data
+
+awk 'NF > 0' ~/emp.data
+
+awk 'length($0) > 17' ~/emp.data
+
+awk '{print NF, $0}' ~/emp.data
+
+awk '{print $2, $1}' ~/emp.data
+
+awk '{temp = $1; $1 = $2; $2 = temp; print}' ~/emp.data
+
+awk '{$1 = NR; print}' ~/emp.data
+
+awk '{$2 = ""; print}' ~/emp.data
+
+awk '{sum = $2 + $3; print sum}' ~/emp.data
+
+awk '{sum += $2 + $3} END{print sum}' ~/emp.data

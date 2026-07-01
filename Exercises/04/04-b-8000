@@ -1,0 +1,1 @@
+ps -eo pid,tty,cmd | awk '$2 == "?" {print $1, $3}'

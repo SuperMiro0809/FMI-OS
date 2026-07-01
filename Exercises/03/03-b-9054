@@ -1,0 +1,1 @@
+awk -F, '$3 == 1969' ~/population.csv  | sort -t, -k4 -rn | head -42 | tail -1 | cut -d, -f1,4

@@ -1,0 +1,1 @@
+awk -F : '{print $5}' /etc/passwd | tr -d ',SIKN'  |  awk '{if(length($2)/2>6) print $0}'

@@ -1,0 +1,1 @@
+ls ~/songs | sed 's/ - .*//' | tr -d ' ' | sort -u | xargs -I{} mkdir ~/songs/{}

@@ -1,0 +1,1 @@
+find /etc -maxdepth 1 -type f -perm -444 -exec cp {} ~/myetc \;

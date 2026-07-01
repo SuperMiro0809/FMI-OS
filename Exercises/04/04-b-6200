@@ -1,0 +1,1 @@
+ ps -eo user | sort -u | grep -vF "$(w | awk '{print $1}' | sort -u)"

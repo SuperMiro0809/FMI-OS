@@ -1,0 +1,3 @@
+ls ~/songs | grep -E '^(Beatles|Pink) -'
+
+ls ~/songs | grep -E '^(Beatles|Pink) -' | wc -l

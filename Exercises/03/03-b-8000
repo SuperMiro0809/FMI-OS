@@ -1,0 +1,1 @@
+cat /srv/fmi-os/exercises/data/mypasswd.txt | grep '/home/SI' | cut -d : -f 1 | sort > 03/si.txt

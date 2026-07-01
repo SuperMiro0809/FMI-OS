@@ -1,0 +1,3 @@
+grep '#' /etc/services | wc -l ---- whole line comments + inline comments
+-or-
+grep '^#' /etc/services | wc -l  ---- whole line comments

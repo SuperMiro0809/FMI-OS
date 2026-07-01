@@ -1,0 +1,1 @@
+ps -eo group,rss | awk '$1 == "root" {sum += $2} END{print sum}'

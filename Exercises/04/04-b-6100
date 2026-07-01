@@ -1,0 +1,1 @@
+ps -eo user,cmd | grep vim | awk '{print $1}' | sort | uniq -c | awk '$1 >= 2 {print $2}'
