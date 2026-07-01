@@ -1,0 +1,6 @@
+ex03 -> /home/students/s0600470/ex03
+ex04 -> /home/students/s0600470/ex04
+passwd_symlink -> /home/students/s0600470/passwd_symlink
+ex05 -> /home/students/s0600470/ex05
+ex02 -> /home/students/s0600470/ex02
+Broken symlinks: 1
